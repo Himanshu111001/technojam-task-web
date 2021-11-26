@@ -38,6 +38,9 @@ h2 span{
     justify-content: space-between;
     align-items: center;
     background-color: #000;
+	position: sticky;
+    top: 0;
+    z-index: 99999;
 }
 a{
     text-decoration: none;
@@ -123,7 +126,11 @@ a:hover{
     padding: 1rem 1.8rem;
 }
 
-/* PORTFOLIO */
+/* PROJECTS */
+
+.LODA{
+	margin-top: 1000px;
+}
 
 .portfolio{
 	display: grid;
@@ -270,43 +277,40 @@ textarea{
 
 /* FOOTER */
 
-.f-logo{
-    padding-left: 32px;
-    width: 100px;
-    height: 100px;
+.footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	background-color: black;
+	height: 70px;
 }
-.title{
-     margin: 30px  151px;
-    font-size: 25px;
-    font-weight: 600;
+.footer-item{
+	font-size: 1.2rem;
 }
-.lists{
-    border-bottom: 3px solid violet;
-    border-radius: 2px;
+.fa{
+	padding: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+	border: 1px solid rgba(0, 0, 0, 0);
+	border-radius: 3px;
 }
-footer{
-    margin: 20px 0px;
+.fa-facebook {
+	color: white;
 }
-.footerP ul{
-    list-style: none;
+.fa-twitter {
+	color: white;
 }
-.footerH1{
-    padding-bottom: 1rem;
-    color: gray;
+.fa-linkedin {
+	color: white;
 }
-.search{
-    padding-left: 120px;
+.fa-instagram {
+	color: white;
 }
-.footerEmail{
-    margin: 50px 0px;
+.fa-github{
+	color: white;
 }
-.last{
-    display: flex;
-    justify-content: space-between;
-    margin: 5px 120px;
-}
-.lastP{
-    font-size: 10px;
-    font-weight: 500;
-    color: white;
-} 
+
+
